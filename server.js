@@ -13,8 +13,7 @@ import experienceRoute from './routes/experience.route.js'
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://bookit-client-five.vercel.app',
-  'https://bookit-client-gxmuk956q-abhinavnotfounds-projects.vercel.app'
+  'https://bookit-client-qnr5e8r42-abhinavnotfounds-projects.vercel.app/'
 ];
 
 
