@@ -13,7 +13,8 @@ import experienceRoute from './routes/experience.route.js'
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://bookit-client-five.vercel.app/',
+  'https://bookit-client-five.vercel.app',
+  'https://bookit-client-gxmuk956q-abhinavnotfounds-projects.vercel.app'
 ];
 
 
@@ -42,6 +43,7 @@ app.use(cors({
   },
   credentials: true
 }));
+
 app.use(express.json());
 app.use(morgan('dev'));
 app.use(helmet());
